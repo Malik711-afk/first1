@@ -9,7 +9,7 @@ function Food(){
             <li>{food1}</li>
             <li>{food2}</li>
             <li>{food3}</li>
-            <li>{food4 .toLocaleUpperCase()}</li>
+            <li>{food4}</li>
         </ul>
      )
 }

@@ -1,13 +1,17 @@
 import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Food from './Food.jsx'
+import Banner from './Banner.jsx'
+import Card from './Card.jsx'
+
 
 function App (){
    return(
     <>
     <Header/>
-    <Food/>
+    <Banner/>
+    <Card/>
     <Footer/>
+    
     </>
    )
 }
