@@ -1,27 +1,22 @@
-import Image from './assets/sukuna.png'
 import './Card.css'
 
-function Card(){
-   return(
-      <>
+function Card() {
+   return (
       <div className='card-container'>
-      <div className="card">
-         <img className="Image" src={Image} alt="Random image"></img>
-         <h2 className='h2'>Saad</h2>
-         <p>I am a dev. </p>
+         <div className="card">
+            <h2>Welcome to Our Website</h2>
+            <p>We provide simple and effective solutions for your needs.</p>
+         </div>
+         <div className="card">
+            <h2>Our Mission</h2>
+            <p>To deliver quality service with a focus on user experience.</p>
+         </div>
+         <div className="card">
+            <h2>Get Started</h2>
+            <p>Join us today and discover what we can do for you.</p>
+         </div>
       </div>
-      <div className="card">
-         <img className="Image" src={Image} alt="Random image"></img>
-         <h2 className='h2'>Saad</h2>
-         <p>I am a dev. </p>
-      </div>
-      <div className="card">
-         <img className="Image" src={Image} alt="Random image"></img>
-         <h2 className='h2'>Saad</h2>
-         <p>I am a dev. </p>
-      </div>
-      </div>
-      </>
    );
 }
+
 export default Card

@@ -1,15 +1,15 @@
-import './Banner.css';
+import './Banner.css'
 
 function Banner() {
   return (
     <section className="banner">
       <div className="banner-content">
-        <h1>Crafting Code, One Line at a Time</h1>
-        <p>Stay focused. Stay minimal. Build something legendary.</p>
-        <button className="banner-btn">Get Started</button>
+        <h1>Welcome to Our Website</h1>
+        <p>A simple and clean design for your needs</p>
+        <button className="banner-btn">Learn More</button>
       </div>
     </section>
-  );
+  )
 }
 
-export default Banner;
+export default Banner
